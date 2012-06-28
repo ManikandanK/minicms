@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @image.name %>
+</p>
+
+<p>
+  <b>Entity type:</b>
+  <%= @image.entity_type %>
+</p>
+
+<p>
+  <b>Entity:</b>
+  <%= @image.entity_id %>
+</p>
+
+<p>
+  <b>Upload file name:</b>
+  <%= @image.upload_file_name %>
+</p>
+
+<p>
+  <b>Upload content type:</b>
+  <%= @image.upload_content_type %>
+</p>
+
+<p>
+  <b>Upload file size:</b>
+  <%= @image.upload_file_size %>
+</p>
+
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>

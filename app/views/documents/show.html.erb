@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @document.name %>
+</p>
+
+<p>
+  <b>Entity type:</b>
+  <%= @document.entity_type %>
+</p>
+
+<p>
+  <b>Entity:</b>
+  <%= @document.entity_id %>
+</p>
+
+<p>
+  <b>Upload file name:</b>
+  <%= @document.upload_file_name %>
+</p>
+
+<p>
+  <b>Upload content type:</b>
+  <%= @document.upload_content_type %>
+</p>
+
+<p>
+  <b>Upload file size:</b>
+  <%= @document.upload_file_size %>
+</p>
+
+
+<%= link_to 'Edit', edit_document_path(@document) %> |
+<%= link_to 'Back', documents_path %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  entity_type: MyString
+  entity_id: 1
+  upload_file_name: MyString
+  upload_content_type: MyString
+  upload_file_size: 1
+
+two:
+  name: MyString
+  entity_type: MyString
+  entity_id: 1
+  upload_file_name: MyString
+  upload_content_type: MyString
+  upload_file_size: 1
